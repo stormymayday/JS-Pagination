@@ -1,3 +1,7 @@
 import fetchFollowers from "./fetchFollowers.js";
 
-fetchFollowers();
+fetchFollowers().then((data) => {
+
+    console.log(data);
+
+});
