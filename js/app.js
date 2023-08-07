@@ -7,3 +7,5 @@ const init = async () => {
     console.log(followers);
 
 };
+
+window.addEventListener('load', init);
