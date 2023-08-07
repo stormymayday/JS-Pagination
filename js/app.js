@@ -1,7 +1,7 @@
 import fetchFollowers from "./fetchFollowers.js";
 
-fetchFollowers().then((data) => {
+const init = async () => {
 
-    console.log(data);
+    const followers = await fetchFollowers();
 
-});
+};
