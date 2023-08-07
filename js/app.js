@@ -1,1 +1,3 @@
-console.log(`hello`);
+import fetchFollowers from "./fetchFollowers.js";
+
+fetchFollowers();
