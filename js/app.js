@@ -15,6 +15,9 @@ const init = async () => {
 
     title.textContent = 'pagination';
 
+    // Pagination
+    const pages = paginate(followers);
+
 };
 
 window.addEventListener('load', init);
