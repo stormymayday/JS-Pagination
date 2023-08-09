@@ -1,4 +1,5 @@
 import fetchFollowers from "./fetchFollowers.js";
+import getElement from "../js/utils/getElement.js";
 
 const init = async () => {
 
