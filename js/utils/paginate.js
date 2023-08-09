@@ -1,6 +1,6 @@
 const paginate = (followers) => {
 
-    const itemsPerPage = 10;
+    const itemsPerPage = 9;
 
     // Calculating the number of pages
     const numberOfPages = Math.ceil(followers.length / itemsPerPage);
