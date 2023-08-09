@@ -11,12 +11,13 @@ const init = async () => {
     const followers = await fetchFollowers();
     // console.log(followers);
 
-    displayFollowers(followers);
+    displayFollowers(paginate(followers)[0]);
 
     title.textContent = 'pagination';
 
     // Pagination
     const pages = paginate(followers);
+    console.log(pages);
 
 };
 
