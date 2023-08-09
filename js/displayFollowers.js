@@ -16,7 +16,7 @@ const displayFollowers = (followers) => {
         <a href="${html_url} class="btn" target="_blank">view profile</a>
         </article>`
 
-    });
+    }).join('');
 
 };
 
