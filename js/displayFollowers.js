@@ -1,4 +1,4 @@
-aimport getElement from "./utils/getElement.js";
+import getElement from "./utils/getElement.js";
 
 const container = getElement('.container');
 
