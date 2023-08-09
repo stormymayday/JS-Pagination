@@ -4,7 +4,7 @@ const container = getElement('.container');
 
 const displayFollowers = (followers) => {
 
-    console.log(followers);
+    // console.log(followers); 
 
     const newFollowers = followers.map((follower) => {
 
