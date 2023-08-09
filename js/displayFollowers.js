@@ -18,6 +18,8 @@ const displayFollowers = (followers) => {
 
     }).join('');
 
+    container.innerHTML = newFollowers;
+
 };
 
 export default displayFollowers;
