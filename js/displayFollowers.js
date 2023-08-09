@@ -4,7 +4,7 @@ const container = getElement('.container');
 
 const displayFollowers = (followers) => {
 
-    // console.log(followers);
+    console.log(followers);
 
     const newFollowers = followers.map((follower) => {
 
@@ -13,7 +13,7 @@ const displayFollowers = (followers) => {
         return `<article class="card">
         <img src="${avatar_url}" alt="${login}">
         <h4>${login}</h4>
-        <a href="${html_url} class="btn" target="_blank">view profile</a>
+        <a href="${html_url}" class="btn" target="_blank">view profile</a>
         </article>`
 
     }).join('');
