@@ -1,6 +1,10 @@
 const paginate = (followers) => {
 
-    console.log(followers);
+    // console.log(followers);
+
+    const itemsPerPage = 10;
+
+
 
 };
 
