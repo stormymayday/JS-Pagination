@@ -11,7 +11,7 @@ let pages = [];
 
 const setupUI = () => {
 
-    displayFollowers(pages);
+    displayFollowers(pages[index]);
 
 };
 
