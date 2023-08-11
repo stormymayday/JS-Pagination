@@ -4,7 +4,8 @@ import displayFollowers from "./displayFollowers.js";
 import paginate from "./utils/paginate.js";
 
 const title = getElement('.section-title h1');
-
+const btnContainer = getElement('.btn-container');
+console.log(btnContainer);
 
 const init = async () => {
 
