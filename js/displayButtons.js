@@ -6,9 +6,9 @@ const displayButtons = (container, pages, activeIndex) => {
 
         return `<button class="page-btn ${activeIndex === pageIndex ? 'active-btn' : null}" data-index="${pageIndex}">${pageIndex + 1}</button>`;
 
-    }).join('');
+    });
 
-    container.innerHTML = btns;
+    container.innerHTML = btns.join('');
 
 };
 
