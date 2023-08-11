@@ -19,7 +19,7 @@ const init = async () => {
     title.textContent = 'pagination';
 
     // Pagination
-    const pages = paginate(followers);
+    pages = paginate(followers);
     console.log(pages);
 
 };
