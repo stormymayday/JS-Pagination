@@ -6,7 +6,7 @@ const displayButtons = (container, pages, activeIndex) => {
 
         return `<button class="page-btn">${pageIndex + 1}</button>`;
 
-    });
+    }).join('');
 
     container.innerHTML = btns;
 
