@@ -5,7 +5,8 @@ import paginate from "./utils/paginate.js";
 
 const title = getElement('.section-title h1');
 const btnContainer = getElement('.btn-container');
-console.log(btnContainer);
+
+let index = 0;
 
 const init = async () => {
 
