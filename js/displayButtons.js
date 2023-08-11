@@ -1,4 +1,6 @@
-const displayButtons = () => {
+const displayButtons = (container, pages, activeIndex) => {
+
+    console.log(container, pages, activeIndex);
 
 };
 
