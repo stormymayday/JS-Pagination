@@ -9,6 +9,10 @@ const btnContainer = getElement('.btn-container');
 let index = 0;
 let pages = [];
 
+const setupUI = () => {
+
+};
+
 const init = async () => {
 
     const followers = await fetchFollowers();
