@@ -8,6 +8,9 @@ const displayButtons = (container, pages, activeIndex) => {
 
     });
 
+    // Prev Button
+    btns.unshift(`<button class="prev-btn">prev</button>`);
+
     // Next Button
     btns.push(`<button class="next-btn">next</button>`);
 
