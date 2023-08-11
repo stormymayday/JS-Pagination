@@ -14,6 +14,8 @@ const setupUI = () => {
 
     displayFollowers(pages[index]);
 
+    displayButtons(btnContainer, pages, index);
+
 };
 
 const init = async () => {
