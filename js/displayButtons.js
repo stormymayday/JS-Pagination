@@ -8,6 +8,8 @@ const displayButtons = (container, pages, activeIndex) => {
 
     });
 
+    container.innerHTML = btns;
+
 };
 
 export default displayButtons;
