@@ -14,8 +14,6 @@ const init = async () => {
     const followers = await fetchFollowers();
     // console.log(followers);
 
-    displayFollowers(paginate(followers)[0]);
-
     title.textContent = 'pagination';
 
     // Pagination
