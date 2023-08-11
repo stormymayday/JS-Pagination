@@ -7,6 +7,7 @@ const title = getElement('.section-title h1');
 const btnContainer = getElement('.btn-container');
 
 let index = 0;
+let pages = [];
 
 const init = async () => {
 
