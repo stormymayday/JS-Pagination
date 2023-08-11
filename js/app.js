@@ -24,7 +24,9 @@ const init = async () => {
 
     // Pagination
     pages = paginate(followers);
-    console.log(pages);
+    // console.log(pages);
+
+    setupUI();
 
 };
 
