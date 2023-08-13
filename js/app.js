@@ -43,7 +43,7 @@ btnContainer.addEventListener('click', (e) => {
         // Setting the global index variable to the data-index value of the button
         index = parseInt(e.target.dataset.index);
 
-        console.log(index);
+        setupUI();
 
     }
 
