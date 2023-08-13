@@ -34,3 +34,11 @@ const init = async () => {
 };
 
 window.addEventListener('load', init);
+
+btnContainer.addEventListener('click', (e) => {
+
+    if (e.target.classList.contains('page-btn')) {
+        console.log(e.target.dataset.index);
+    }
+
+});
