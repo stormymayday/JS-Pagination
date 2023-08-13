@@ -53,7 +53,20 @@ btnContainer.addEventListener('click', (e) => {
 
     }
 
-    // Checking target is the '.next-btn'
+    // Checking event target is the '.prev-btn'
+    if (e.target.classList.contains('prev-btn')) {
+
+        index--;
+
+        if (index < 0) {
+
+            index = pages.length - 1;
+
+        }
+
+    }
+
+    // Checking event target is the '.next-btn'
     if (e.target.classList.contains('next-btn')) {
 
         index++;
