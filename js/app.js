@@ -53,6 +53,19 @@ btnContainer.addEventListener('click', (e) => {
 
     }
 
+    // Checking target is the '.next-btn'
+    if (e.target.classList.contains('next-btn')) {
+
+        index++;
+
+        if (index > pages.length - 1) {
+
+            index = 0;
+
+        }
+
+    }
+
     setupUI();
 
 });
