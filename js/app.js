@@ -37,8 +37,14 @@ window.addEventListener('load', init);
 
 btnContainer.addEventListener('click', (e) => {
 
+    // Checking target is one of the '.page-btn' buttons
     if (e.target.classList.contains('page-btn')) {
-        console.log(e.target.dataset.index);
+
+        // Setting the global index variable to the data-index value of the button
+        index = parseInt(e.target.dataset.index);
+
+        console.log(index);
+
     }
 
 });
