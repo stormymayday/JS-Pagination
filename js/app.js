@@ -37,6 +37,14 @@ window.addEventListener('load', init);
 
 btnContainer.addEventListener('click', (e) => {
 
+    // Checking if click event is on the container itself
+    if (e.target.classList.contains('btn-container')) {
+
+        // Exiting the function to prevent re-rendering
+        return;
+
+    }
+
     // Checking target is one of the '.page-btn' buttons
     if (e.target.classList.contains('page-btn')) {
 
